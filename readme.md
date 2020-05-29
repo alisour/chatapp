@@ -1,6 +1,6 @@
-### Persistent Chat App using socket.io and mongodb
+# Persistent Chat App using socket.io and mongodb
 
-# To start program, first install node modules:
+### To start program, first install node modules:
 
 Open a terminal in package.json's directory, then enter this:
 
@@ -8,7 +8,7 @@ Open a terminal in package.json's directory, then enter this:
 npm install
 ```
 
-# After that start:
+### After that start:
 
 
 ```bash
@@ -17,7 +17,7 @@ npm start
 
 App is gonna use port 3000, so make sure its open.
 
-# Then open your browser and go to:
+### Then open your browser and go to:
 
 http://localhost:3000
 
