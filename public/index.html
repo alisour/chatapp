@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CHAT</title>
+  <link rel="shortcut icon" href="./assets/favicon.png" type="image/png">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+
+  <script src="socket.io/socket.io.js"></script>
+  <script src="./js/chat.js"></script>
+  <style>
+    body {
+      text-align: center;
+
+    }
+
+    form {
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <!--WELCOME-->
+  <div class="container">
+    <div class="inbox_msg">
+      <div class="inbox_people col-md-3">
+        <div class="headind_srch">
+          <div class="recent_heading">
+            <h4>Welcome</h4>
+          </div>
+          <div class="srch_bar">
+            <div class="stylish-input-group">
+              <h4 style="color: #05728f;" id="name"></h4>
+            </div>
+          </div>
+        </div>
+        <div class="inbox_chat">
+
+          <div class="chat_list" id="userList">
+            
+          <!-- USER LIST-->
+
+          </div>
+
+
+
+        </div>
+      </div>
+      <div class="mesgs">
+        <div class="msg_history" id="chat" onload="loadMessage()">
+          <!--MESSAGE HISTORY-->
+
+
+
+        </div>
+
+
+        <!--INPUT AREA-->
+        <div class="type_msg">
+          <div class="input_msg_write">
+            <input id="message" style="width: 120%;" type="text" class="write_msg" placeholder="Type a message" />
+          </div>
+        </div>
+
+      </div>
+
+
+
+    </div>
+
+</body>
+
+</html>

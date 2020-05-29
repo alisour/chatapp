@@ -1,0 +1,22 @@
+{
+  "name": "ag-odevi",
+  "version": "1.0.0",
+  "description": "chat app using express, nodejs v12.16.3, socket.io  and mongodb v4.2.6",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "nodemon server.js"
+  },
+  "author": "ali eksi",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "~3.5",
+    "body-parser": "~1.17",
+    "express": "~4.16.1",
+    "socket.io": "~2.3.0",
+    "mongoose": "~5.9.11"
+  },
+  "devDependencies": {
+    "nodemon": "~2.0.3"
+  }
+}
