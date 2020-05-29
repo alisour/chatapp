@@ -8,7 +8,7 @@ Open a terminal in package.json's directory, then enter this:
 npm install
 ```
 
-### !!! Also, make sure mongodb's started
+### !!! Make sure mongodb's started !!!
 
 ### After that start:
 
